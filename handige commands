@@ -8,7 +8,7 @@ cp = copy files and directories
 Git:
 git help config = hiermee kan je zien wat je met je config kan doen
 git init = als je code wil tracken deze command in de directory
-git status = zien wel;ke files worden getracked
+git status = zien welke files worden getracked
 touch .gitignore = voor het ignore van files die je niet in git wil hebben
 git add -A = add all unstaged files to staging area
 git add <filename> add unstaged file to staging area
@@ -16,3 +16,12 @@ git reset remove all files from staging area
 git commit -m "<message>"  = commit changes to git with a message
 git log = see the commit you made with name and date
 git clone <url> [where to clone] = copy repository to work on locally
+git push = pushes file from commit to the remote repository
+
+Nieuwe Git repo:
+1 git init
+2 git add -A
+3 git commit -m "first commit"
+4 git remote add origin <url>
+5 git branch -M main
+6 git push -u origin main
